@@ -1,0 +1,30 @@
+{
+    "name": "Check-config",
+    "description": "Check server configuration that capable with project or not",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Configuration\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Developer",
+            "email": "backends.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0", 
+        "illuminate/support": "^8.0|^9.0" 
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Configuration\\InstallerServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
