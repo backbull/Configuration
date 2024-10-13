@@ -1,10 +1,10 @@
 <?php
 
-namespace Configuration;
+namespace Configuration\Environment;
 
 use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\Router;
-use Configuration\Http\Middlewares\IsAdmin;
+use Configuration\Environment\Http\Middlewares\IsAdmin;
 
 class InstallerServiceProvider extends ServiceProvider
 {

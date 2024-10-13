@@ -1,11 +1,11 @@
 {
-    "name": "configuration",
+    "name": "configuration/environment",
     "description": "Check server configuration that capable with project or not",
     "type": "library",
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Configuration\\": "src/"
+            "Configuration\\Environment\\": "src/"
         }
     },
     "authors": [
@@ -21,7 +21,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Configuration\\InstallerServiceProvider"
+                "Configuration\\Environment\\InstallerServiceProvider"
             ]
         }
     },

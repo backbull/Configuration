@@ -1,12 +1,12 @@
 <?php
 
-namespace Configuration\Http\Controllers;
+namespace Configuration\Environment\Http\Controllers;
 
 use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use Configuration\Traits\SetEnvironment;
+use Configuration\Environment\Traits\SetEnvironment;
 
 class DatabaseController extends Controller
 {

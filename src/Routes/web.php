@@ -1,6 +1,6 @@
 <?php
 use Illuminate\Support\Facades\Route; 
-Route::group(['namespace' => 'Configuration\Http\Controllers'], function(){
+Route::group(['namespace' => 'Configuration\Environment\Http\Controllers'], function(){
 	Route::group(['prefix' => 'install', 'middleware' => ['isAdmin']], function() {
 		Route::get('/', function(){ return view('Installer::welcome'); });
 		Route::get('requirements','RequirementsController@requirements');
