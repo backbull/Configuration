@@ -1,5 +1,5 @@
 {
-    "name": "Check-config",
+    "name": "configuration",
     "description": "Check server configuration that capable with project or not",
     "type": "library",
     "license": "MIT",
