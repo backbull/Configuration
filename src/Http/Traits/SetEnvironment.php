@@ -1,6 +1,6 @@
 <?php
 
-namespace Configuration\Environment\Traits;
+namespace Configuration\Environment\Http\Traits;
 
 use Illuminate\Http\Request;
 

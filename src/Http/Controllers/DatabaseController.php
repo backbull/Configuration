@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Exception;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Artisan;
-use Configuration\Environment\Traits\SetEnvironment;
+use Configuration\Environment\Http\Traits\SetEnvironment;
 
 class DatabaseController extends Controller
 {
